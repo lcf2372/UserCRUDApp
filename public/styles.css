@@ -1,0 +1,194 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global font settings */
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #003366; /* Blue background for the entire page */
+    color: #fff; /* White text for better contrast */
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #004080; /* Blue header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #005cbf; /* Blue navigation bar */
+    padding: 15px 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  nav a:hover {
+    background-color: #c7c7c7;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366; /* Matching blue footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #005cbf; /* Blue button background */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: #004080; /* Darker blue on hover */
+  }
+  
+  /* Card Styling (For users or products) */
+  .card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  .card-header {
+    background-color: #003366; /* Dark blue card header */
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Table Styles for Users Listing */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #003366; /* Blue table header */
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5; /* Light gray hover effect */
+  }
+  
+  /* Form Inputs */
+  input, textarea, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border-color: #003366; /* Blue focus color */
+    outline: none;
+  }
+  
+  /* Custom Style for Hero Section */
+  .hero-section {
+    background-color: #004080; /* Blue background */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-section h2 {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  /* Call-to-action Section */
+  .cta-button {
+    background-color: #1c1c1c; /* Dark gray button */
+    color: #fff;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #005cbf; /* Light blue on hover */
+    color: #fff;
+  }
+  
+  /* Apply some spacing */
+  .container {
+    padding: 30px;
+  }
+  
+  /* Ensure the form fields look good on blue background */
+  form {
+    background-color: #003366; /* Dark blue background for forms */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form textarea, form button {
+    background-color: #fff; /* White form fields */
+    color: #333; /* Dark text for readability */
+  }
+  
+  form button {
+    background-color: #005cbf; /* Blue button in forms */
+    color: #fff;
+  }
+  
